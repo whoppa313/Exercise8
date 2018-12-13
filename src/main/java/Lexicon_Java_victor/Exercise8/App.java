@@ -21,12 +21,23 @@ while (vinna == false)
 	
 	if(gissa == Nummer)
 	{
-		
+		vinna = true;
 	}
+	else if(gissa < Nummer)
+	{
+		System.out.println("för litte");
+	}
+	else if(gissa > Nummer)
+	{
+		System.out.println("för högt");
+	}
+	
+}
 
-	
-	
-	
+
+System.out.println("du gissade rätt");
+System.out.println("rätt nummer var " + Nummer);
+
 	
 	
     		
